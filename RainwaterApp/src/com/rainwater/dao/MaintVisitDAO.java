@@ -69,7 +69,6 @@ public class MaintVisitDAO {
         return null;
     }
 
-    // Update visit status
     public boolean updateVisitStatus(int visitID, String status) throws Exception {
         String sql = "UPDATE MAINT_VISIT_TBL4 SET VISIT_STATUS=? WHERE VISIT_ID=?";
         try (Connection con = DBUtil.getDBConnection();

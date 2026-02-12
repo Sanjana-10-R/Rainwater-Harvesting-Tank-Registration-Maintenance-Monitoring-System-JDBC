@@ -1,8 +1,5 @@
 package com.rainwater.util;
 
-
-
-
 public class VisitConflictException extends Exception {
 
     public VisitConflictException(String message) {
